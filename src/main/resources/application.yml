@@ -1,0 +1,13 @@
+server:
+    port: 4041
+spring:
+    datasource:
+        password: root
+        url: jdbc:mysql://localhost:3306/local?useSSL=false
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL5InnoDBDialect
